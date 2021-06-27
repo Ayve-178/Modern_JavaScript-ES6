@@ -72,7 +72,7 @@ console.log(arr);            // [ 'JavaScript', 'PHP', 'Python', 'Ruby', 'C++', 
 arr.copyWithin(-3, -1, -2);
 console.log(arr);             // [ 'JavaScript', 'PHP', 'Python', 'Ruby', 'C++', 'RUST' ]
 
-//For negative index start must be greater than end. -> confusion
+//start must be less than end. Otherwise the array will be unchaged.
 
 //------------------------------------------------------------------------------------------------------------
 
